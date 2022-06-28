@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 .5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    padding: .5em;
+}
+
+.router-link-exact-active {
+    color: rgb(97, 176, 51);
+}
+.router-link-exact-active h3{
+    color: rgb(2, 2, 2);
+}
+

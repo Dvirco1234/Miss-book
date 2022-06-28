@@ -1,0 +1,16 @@
+.app-header , .app-footer{
+    background-color:lightgray;
+    height: 5vh;
+    padding: .8em;
+}
+
+.app-header{
+    justify-content: space-between;
+    align-items: center;
+}
+.app-header .logo h3{
+    margin: 0;
+}
+.app-header nav *{
+    margin-inline-start: 1em;
+}

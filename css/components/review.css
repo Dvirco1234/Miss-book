@@ -1,0 +1,23 @@
+.add-review {
+    flex-direction: column;
+    gap: 1em;
+}
+
+.toggle-review {
+    text-align: center;
+    cursor: pointer;
+}
+
+.review-form {
+    flex-direction: column;
+}
+
+.review-form input, select{
+    margin-bottom: 1em;
+    height: 2em;
+    max-width: 10em;
+}
+
+.review-time, .rate {
+    text-align: center;
+}

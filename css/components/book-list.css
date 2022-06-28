@@ -1,0 +1,10 @@
+.book-list ul{
+    list-style: none;
+    margin:0;
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.book-list li{
+    cursor: pointer;
+}

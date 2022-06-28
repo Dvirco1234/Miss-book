@@ -1,0 +1,22 @@
+.book-preview-container{
+    position: relative;
+    padding:10px;
+    margin:10px;
+    width: 150px;
+    background-color:rgb(110, 110, 100);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.book-preview-container .link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.book-preview-container .actions {
+    z-index: 10;
+}

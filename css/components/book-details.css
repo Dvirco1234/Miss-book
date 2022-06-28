@@ -1,0 +1,34 @@
+.book-details {
+    padding: 1em;
+}
+
+.book-details-container {
+    display: flex;
+}
+
+.book-details button {
+    display: block;
+    font-size: 1em;
+    font-weight: 700;
+}
+.book-details .tag {
+    display: inline-block;
+    margin-inline-end: 1em;
+}
+
+.long-text span {
+    font-weight: 600; 
+    cursor: pointer;
+}
+
+.book-img {
+    position: relative;
+    margin-inline-end: 1em;
+}
+
+.book-img .sale-img {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 3.5em;
+}

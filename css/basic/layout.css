@@ -1,0 +1,13 @@
+.main-app {
+    min-height: 90vh;
+}
+
+.book-app{
+    min-height: 90vh;
+    background-color:rgb(244, 244, 244);
+    overflow-y: scroll;
+}
+
+.book-filter {
+    padding: 1em;
+}
